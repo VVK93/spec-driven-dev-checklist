@@ -22,24 +22,24 @@ That’s it. Everything else is optional.
 
 ## 2) Universal rules for `AGENTS.md` (based on best practice)
 
-### What to include (WHY / WHAT / HOW)
-- **WHY:** 1–2 lines on the project purpose (who it’s for, what success means)
-- **WHAT:** a short map of the repo (where core code lives, what folders mean)
-- **HOW:** the *few* commands needed to validate changes (install, test, typecheck, lint, build, verify)
+- [ ] **What to include (WHY / WHAT / HOW)**
+  - [ ] **WHY:** 1–2 lines on the project purpose (who it’s for, what success means)
+  - [ ] **WHAT:** a short map of the repo (where core code lives, what folders mean)
+  - [ ] **HOW:** the *few* commands needed to validate changes (install, test, typecheck, lint, build, verify)
 
-### What *not* to include
-- Don’t dump every possible command or long “style guides” (agents ignore bloated files).
-- Don’t include large code snippets that will rot; prefer pointers to the real files.
-- Don’t make the agent do a linter’s job—use formatters/linters deterministically.
+- [ ] **What *not* to include**
+  - [ ] Don’t dump every possible command or long “style guides” (agents ignore bloated files).
+  - [ ] Don’t include large code snippets that will rot; prefer pointers to the real files.
+  - [ ] Don’t make the agent do a linter’s job—use formatters/linters deterministically.
 
-### Keep it short & universally applicable
-- Aim for “root instructions” that apply to **most tasks**.
-- Use **progressive disclosure**: link to additional docs only when needed.
+- [ ] **Keep it short & universally applicable**
+  - [ ] Aim for “root instructions” that apply to **most tasks**.
+  - [ ] Use **progressive disclosure**: link to additional docs only when needed.
 
-### Guardrails (always safe)
-- Never expand scope beyond the current spec without asking.
-- Never commit secrets; only use `.env.example` and secret managers.
-- Prefer minimal diffs; avoid drive‑by refactors.
+- [ ] **Guardrails (always safe)**
+  - [ ] Never expand scope beyond the current spec without asking.
+  - [ ] Never commit secrets; only use `.env.example` and secret managers.
+  - [ ] Prefer minimal diffs; avoid drive‑by refactors.
 
 ---
 
