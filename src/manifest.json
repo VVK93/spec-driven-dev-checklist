@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Diary",
+  "version": "0.1.0",
+  "description": "A private, local diary in a Chrome extension popup.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

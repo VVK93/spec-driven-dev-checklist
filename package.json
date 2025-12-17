@@ -1,0 +1,9 @@
+{
+  "name": "simple-diary-extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Load the /src folder as an unpacked extension in Chrome\"",
+    "verify": "echo \"No automated verify configured\""
+  }
+}

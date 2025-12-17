@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Diary</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Simple Diary</h1>
+      <button id="newEntryBtn">New Entry</button>
+    </header>
+
+    <main>
+      <div id="emptyState" class="empty">No entries yet — create your first entry.</div>
+      <ul id="entriesList" class="entries"></ul>
+    </main>
+
+    <div id="editor" class="editor hidden">
+      <input id="entryTitle" placeholder="Title" />
+      <textarea id="entryContent" placeholder="Write your entry..."></textarea>
+      <div class="editor-actions">
+        <button id="saveBtn">Save</button>
+        <button id="deleteBtn" class="danger">Delete</button>
+        <button id="cancelBtn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="storage.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
